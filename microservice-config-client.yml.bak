@@ -21,7 +21,7 @@ spring:
  profiles: prod
  application: 
   name: microservice-config-client
-eureka:   
+eureka: 
   client: 
-    service-url: 
-      defaultZone: http://eureka-dev:7003/eureka/
+   service-url: 
+    defaultZone: http://eureka-prod:7003/eureka/
