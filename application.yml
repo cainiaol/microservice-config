@@ -5,8 +5,12 @@
 ---
 spring:
   profiles: dev
+  application:
+    name:  microservice-config-dev
 
 
 ---
 spring:
   profiles: prod
+  application:
+    name:  microservice-config-prod
