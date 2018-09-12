@@ -4,7 +4,7 @@ spring:
 ---
 
 server: 
- portal: 5001
+ port: 5001
 spring: 
  profiles: dev
  application: 
@@ -16,7 +16,7 @@ eureka:
 ---
 
 server: 
- portal: 5002
+ port: 5002
 spring: 
  profiles: prod
  application: 
