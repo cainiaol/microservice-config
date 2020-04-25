@@ -3,19 +3,12 @@ spring:
   profiles:
     active: dev
 ---
-server:
-  port: 8001
 info:
   version: info-version-1
     
 spring:
    profiles: dev
 ---
-
-
-server:
-  port: 8001
-
 info:
   version: info-version-3
    
